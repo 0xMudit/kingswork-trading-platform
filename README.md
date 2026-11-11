@@ -200,7 +200,8 @@ indicators and an ML model, `risk/manager.py` does position sizing, risk scoring
 `backtesting/engine.py` models fills, commission, PnL, and drawdown, and `fusion/engine.py` combines
 signals into the intelligence stack. SQLAlchemy models persist to SQLite by default, with Redis,
 Yahoo Finance, Stripe, and Groq all gated behind environment flags. See
-[ARCHITECTURE.md](ARCHITECTURE.md) for routing, state ownership, and extension guidance.
+[ARCHITECTURE.md](ARCHITECTURE.md) for routing, state ownership, and extension guidance,
+and [docs/api-reference.md](docs/api-reference.md) for the per-endpoint API reference.
 
 ## Project layout
 

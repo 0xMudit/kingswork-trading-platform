@@ -27,7 +27,8 @@ The backend is FastAPI with SQLAlchemy and SQLite by default. `backend/main.py` 
 Core domains:
 
 `main.py` registers the following 27 prefixed routers plus the WebSocket router. Grouped by
-concern, not by registration order:
+concern, not by registration order (per-endpoint details, example payloads, and error codes
+live in [docs/api-reference.md](docs/api-reference.md)):
 
 - **Identity** — `auth`: JWT login/register/profile. `account`: profile settings,
   notification and privacy preferences, self-set limits, password changes. `referral`.
